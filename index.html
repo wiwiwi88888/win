@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>聯絡我們</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  header {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    color: white;
+    padding: 40px 20px;
+  }
+  h1 {
+    margin: 0;
+  }
+  .links {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  a:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  .line { background: #06C755; }
+  .wechat { background: #09B83E; flex-direction: column; }
+  .whatsapp { background: #25D366; }
+  .icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .qr {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: white;
+    padding: 5px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>聯絡我們</h1>
+  <p>透過以下方式找到我們</p>
+</header>
+
+<section class="links">
+  <!-- LINE -->
+  <a class="line" href="https://lin.ee/o20Lvao" target="_blank">
+    <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" alt="LINE">加我們 LINE
+  </a>
+
+  <!-- 微信 -->
+  <div class="wechat">
+    <div style="display:flex;align-items:center;justify-content:center;color:white;font-size:18px;padding:15px 0;">
+      <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/0/08/WeChat_logo.svg" alt="WeChat">掃描微信 QR Code 加好友
+    </div>
+    <img class="qr" src="S__159809545.jpg" alt="WeChat QR Code">
+  </div>
+
+  <!-- WhatsApp -->
+  <a class="whatsapp" href="https://wa.me/886926352321" target="_blank">
+    <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">WhatsApp 聯絡我們
+  </a>
+</section>
+
+</body>
+</html>
